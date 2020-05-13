@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="316" Margin="38,66,0,0" VerticalAlignment="Top" Width="247"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="69" Margin="479,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="83" Margin="479,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"/>
         <Image x:Name="image" HorizontalAlignment="Left" Height="260" Margin="484,131,0,0" VerticalAlignment="Top" Width="270"/>
 
     </Grid>

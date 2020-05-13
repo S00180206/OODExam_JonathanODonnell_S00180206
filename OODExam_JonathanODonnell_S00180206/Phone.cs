@@ -9,7 +9,7 @@ namespace OODExam_JonathanODonnell_S00180206
 {
     public class Phone
     {
-        public int ID { get; set; }
+        
         public string Name { get; set; }
         public decimal Price { get; set; }
         public string OperatingSystem { get; set; }
@@ -20,11 +20,11 @@ namespace OODExam_JonathanODonnell_S00180206
 
     public class IncreasePrice
     {
-        public decimal Price { get; set; }
+        public decimal increasePrice { get; set; }
 
         public void Increase(decimal addedAmount)
         {
-            Price *= addedAmount;
+            increasePrice *= addedAmount;
         }
     }
     public class PhoneData:DbContext

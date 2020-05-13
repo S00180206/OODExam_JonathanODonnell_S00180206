@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OODExam_JonathanODonnell_S0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIncreasePrice", "TestIncreasePrice\TestIncreasePrice.csproj", "{319AFCBD-9783-4020-9E24-30BCA893C7E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneDataManagement", "PhoneDataManagement\PhoneDataManagement.csproj", "{C76F219D-E966-4163-9EAB-8CF79644B8E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{319AFCBD-9783-4020-9E24-30BCA893C7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{319AFCBD-9783-4020-9E24-30BCA893C7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{319AFCBD-9783-4020-9E24-30BCA893C7E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C76F219D-E966-4163-9EAB-8CF79644B8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C76F219D-E966-4163-9EAB-8CF79644B8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C76F219D-E966-4163-9EAB-8CF79644B8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C76F219D-E966-4163-9EAB-8CF79644B8E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

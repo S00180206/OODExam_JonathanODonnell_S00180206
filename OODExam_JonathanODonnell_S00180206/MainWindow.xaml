@@ -5,11 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OODExam_JonathanODonnell_S00180206"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Loaded="Window_Loaded">
     <Grid>
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="316" Margin="38,66,0,0" VerticalAlignment="Top" Width="247"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="83" Margin="479,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="260" Margin="484,131,0,0" VerticalAlignment="Top" Width="270"/>
+        <ListBox x:Name="lbxPhones" HorizontalAlignment="Left" Height="316" Margin="38,66,0,0" VerticalAlignment="Top" Width="247" SelectionChanged="lbxPhones_SelectionChanged"/>
+        <TextBox x:Name="tbPrice" HorizontalAlignment="Left" Height="83" Margin="479,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"/>
+        <Image x:Name="imgPhone" HorizontalAlignment="Left" Height="260" Margin="484,131,0,0" VerticalAlignment="Top" Width="270"/>
 
     </Grid>
 </Window>

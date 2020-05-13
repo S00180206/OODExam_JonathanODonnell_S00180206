@@ -97,6 +97,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="Images\Thumbs.db" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -105,6 +106,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\android.png" />
+    <Resource Include="Images\apple.png" />
+    <Resource Include="Images\background.png" />
+    <Resource Include="Images\chaser.png" />
+    <Resource Include="Images\down.png" />
+    <Resource Include="Images\iphone11.png" />
+    <Resource Include="Images\left.png" />
+    <Resource Include="Images\player.png" />
+    <Resource Include="Images\right.png" />
+    <Resource Include="Images\s20.jpg" />
+    <Resource Include="Images\stand.png" />
+    <Resource Include="Images\up.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
